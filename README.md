@@ -24,10 +24,15 @@
 ## Part 1: Init Screen
 
 - Call api
+- 
   **getSpins** : Get the remaining number of spins
+  
   **getWheels** : Get array of gifts
+  
   **getProvider** : Get current provider
+  
   **getPrizes** : Get prizes
+  
   **getTransactions** :
   - Retrieve the closest winning result, then combine the _suffle_ **array of gift** obtained from the **_getWheels_** api to render the UI, so that the wheel display includes [0, 1, 2], ensuring the index of reward always 1.
   - Please see the `renderResult` function in the **SpinMachine.vue** component
