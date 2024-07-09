@@ -24,6 +24,7 @@
 ## Part 1: Init Screen
 
 - Call api:
+
   **getSpins** : Get the remaining number of spins
   
   **getWheels** : Get array of gifts
